@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{1B8A873D-C518-4E47-9EC6-601DC33B5791}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RideshareApp.Common", "RideshareApp.Common\RideshareApp.Common.csproj", "{99D5C101-772B-4B0D-8A82-8AE39BFCEC8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RideshareApp.DataAccess.EFCore", "RideshareApp.DataAccess.EFCore\RideshareApp.DataAccess.EFCore.csproj", "{52275541-6E95-4B35-96B6-B5551895D5DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RideshareApp.DataAccess.EFCore.Infrastructure", "RideshareApp.DataAccess.EFCore.Infrastructure\RideshareApp.DataAccess.EFCore.Infrastructure.csproj", "{84898096-9B0E-49CA-AEBE-F40FCB731929}"
+	ProjectSection(ProjectDependencies) = postProject
+		{52275541-6E95-4B35-96B6-B5551895D5DA} = {52275541-6E95-4B35-96B6-B5551895D5DA}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RideshareApp.DIContainerCore", "RideshareApp.DIContainerCore\RideshareApp.DIContainerCore.csproj", "{3D4FA7AB-8269-416B-BACC-5360A62F2038}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RideshareApp.DTO", "RideshareApp.DTO\RideshareApp.DTO.csproj", "{7A2259FD-2028-4AB2-8231-85DBBBEBCFB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RideshareApp.Entities", "RideshareApp.Entities\RideshareApp.Entities.csproj", "{44AFD7A8-5D59-475F-AA7E-69B6C22831DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RideshareApp.Services", "RideshareApp.Services\RideshareApp.Services.csproj", "{6E5E576A-34C1-4B18-8EDC-A882A7418257}"
+	ProjectSection(ProjectDependencies) = postProject
+		{52275541-6E95-4B35-96B6-B5551895D5DA} = {52275541-6E95-4B35-96B6-B5551895D5DA}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RideshareApp.Services.Infrastructure", "RideshareApp.Services.Infrastructure\RideshareApp.Services.Infrastructure.csproj", "{3882B9B7-EA57-4178-AD82-761E1C26353B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F5F473C6-82C4-4B92-9E55-C66D4F608AE4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RideshareApp.IdentityManagementCore", "RideshareApp.IdentityManagementCore\RideshareApp.IdentityManagementCore.csproj", "{60F87028-0D0B-44A3-92B9-134C551A658D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B8A873D-C518-4E47-9EC6-601DC33B5791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8A873D-C518-4E47-9EC6-601DC33B5791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8A873D-C518-4E47-9EC6-601DC33B5791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8A873D-C518-4E47-9EC6-601DC33B5791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D5C101-772B-4B0D-8A82-8AE39BFCEC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D5C101-772B-4B0D-8A82-8AE39BFCEC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D5C101-772B-4B0D-8A82-8AE39BFCEC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D5C101-772B-4B0D-8A82-8AE39BFCEC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52275541-6E95-4B35-96B6-B5551895D5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52275541-6E95-4B35-96B6-B5551895D5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52275541-6E95-4B35-96B6-B5551895D5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52275541-6E95-4B35-96B6-B5551895D5DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84898096-9B0E-49CA-AEBE-F40FCB731929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84898096-9B0E-49CA-AEBE-F40FCB731929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84898096-9B0E-49CA-AEBE-F40FCB731929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84898096-9B0E-49CA-AEBE-F40FCB731929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D4FA7AB-8269-416B-BACC-5360A62F2038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D4FA7AB-8269-416B-BACC-5360A62F2038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D4FA7AB-8269-416B-BACC-5360A62F2038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D4FA7AB-8269-416B-BACC-5360A62F2038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A2259FD-2028-4AB2-8231-85DBBBEBCFB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2259FD-2028-4AB2-8231-85DBBBEBCFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2259FD-2028-4AB2-8231-85DBBBEBCFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2259FD-2028-4AB2-8231-85DBBBEBCFB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44AFD7A8-5D59-475F-AA7E-69B6C22831DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44AFD7A8-5D59-475F-AA7E-69B6C22831DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44AFD7A8-5D59-475F-AA7E-69B6C22831DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44AFD7A8-5D59-475F-AA7E-69B6C22831DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5E576A-34C1-4B18-8EDC-A882A7418257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5E576A-34C1-4B18-8EDC-A882A7418257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5E576A-34C1-4B18-8EDC-A882A7418257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5E576A-34C1-4B18-8EDC-A882A7418257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3882B9B7-EA57-4178-AD82-761E1C26353B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3882B9B7-EA57-4178-AD82-761E1C26353B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3882B9B7-EA57-4178-AD82-761E1C26353B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3882B9B7-EA57-4178-AD82-761E1C26353B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F87028-0D0B-44A3-92B9-134C551A658D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F87028-0D0B-44A3-92B9-134C551A658D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F87028-0D0B-44A3-92B9-134C551A658D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F87028-0D0B-44A3-92B9-134C551A658D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92029946-666D-4417-9DE5-B3BF317E09A2}
+	EndGlobalSection
+EndGlobal
